@@ -18,12 +18,12 @@ do_configure_append() {
     cp ${WORKDIR}/git/lv_drv_conf_template.h ${WORKDIR}/git/lv_drv_conf.h
 }
 
-# cmake_do_install() {
-#     # install -d ${D}${includedir}
-#     install -d ${D}${libdir}
-#     # install -m 0755 ${WORKDIR}/git/lvgl.h ${D}${includedir}
-#     install -m 0755 liblvgl.a ${D}${libdir}
-# }
+cmake_do_install() {
+    # install -d ${D}${includedir}
+    install -d ${D}${libdir}
+    # install -m 0755 ${WORKDIR}/git/lvgl.h ${D}${includedir}
+    install -m 0755 liblv_drivers.a ${D}${libdir}
+}
 
 # So the way our system works, we assume that a recipe will have a main
 # package and in the case of a library that that will contain the actual
