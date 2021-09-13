@@ -14,9 +14,9 @@ S = "${WORKDIR}/git"
 
 inherit cmake
 
-# do_configure_append() {
-#     cp ${WORKDIR}/git/lv_conf_template.h ${WORKDIR}/git/lv_conf.h
-# }
+do_configure_append() {
+    cp ${WORKDIR}/git/lv_drv_conf_template.h ${WORKDIR}/git/lv_drv_conf.h
+}
 
 # cmake_do_install() {
 #     # install -d ${D}${includedir}
