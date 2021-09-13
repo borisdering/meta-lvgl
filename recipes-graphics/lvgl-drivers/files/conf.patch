@@ -280,3 +280,16 @@ index 5bbb694..0a33c00 100644
  #endif
  #endif
  
+diff --git a/win_drv.h b/win_drv.h
+index 784fc9d..53b3911 100644
+--- a/win_drv.h
++++ b/win_drv.h
+@@ -17,7 +17,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../lv_drv_conf.h"
++#include "lv_drv_conf.h"
+ #endif
+ #endif
+ 
