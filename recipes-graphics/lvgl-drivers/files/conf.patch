@@ -1,8 +1,277 @@
+diff --git a/display/GC9A01.h b/display/GC9A01.h
+index eeed192..b60d863 100644
+--- a/display/GC9A01.h
++++ b/display/GC9A01.h
+@@ -17,7 +17,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 
+@@ -29,7 +29,7 @@ extern "C" {
+ #include "lvgl/lvgl.h"
+ #endif
+ 
+-// #include "../../lv_drv_conf.h"
++// #include "../lv_drv_conf.h"
+ // #if USE_GC9A01 != 0
+ 
+ // #include <stdint.h>
+diff --git a/display/ILI9341.h b/display/ILI9341.h
+index 32435c9..2e261ba 100644
+--- a/display/ILI9341.h
++++ b/display/ILI9341.h
+@@ -18,7 +18,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 
+diff --git a/display/R61581.h b/display/R61581.h
+index 3ba4ff9..28fadc9 100644
+--- a/display/R61581.h
++++ b/display/R61581.h
+@@ -17,7 +17,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 
+diff --git a/display/SHARP_MIP.h b/display/SHARP_MIP.h
+index c10d845..dbb1ce4 100644
+--- a/display/SHARP_MIP.h
++++ b/display/SHARP_MIP.h
+@@ -18,7 +18,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 
+diff --git a/display/SSD1963.h b/display/SSD1963.h
+index 49639f5..707ace8 100644
+--- a/display/SSD1963.h
++++ b/display/SSD1963.h
+@@ -17,7 +17,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 
+diff --git a/display/ST7565.h b/display/ST7565.h
+index 1a96df4..c78f7ae 100644
+--- a/display/ST7565.h
++++ b/display/ST7565.h
+@@ -17,7 +17,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 
+diff --git a/display/UC1610.h b/display/UC1610.h
+index 38b1fa3..c82ebc9 100644
+--- a/display/UC1610.h
++++ b/display/UC1610.h
+@@ -17,7 +17,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 
+diff --git a/display/drm.h b/display/drm.h
+index ebf2e28..50be8c9 100644
+--- a/display/drm.h
++++ b/display/drm.h
+@@ -17,7 +17,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 
+diff --git a/display/fbdev.h b/display/fbdev.h
+index 6d265ad..b7467b7 100644
+--- a/display/fbdev.h
++++ b/display/fbdev.h
+@@ -17,7 +17,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 
+diff --git a/display/monitor.h b/display/monitor.h
+index 6ef4d6d..9c2c92c 100644
+--- a/display/monitor.h
++++ b/display/monitor.h
+@@ -17,7 +17,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 
+diff --git a/gtkdrv/gtkdrv.h b/gtkdrv/gtkdrv.h
+index 42f4609..6098a50 100644
+--- a/gtkdrv/gtkdrv.h
++++ b/gtkdrv/gtkdrv.h
+@@ -17,7 +17,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 
+diff --git a/indev/AD_touch.h b/indev/AD_touch.h
+index 7c07ab3..4f1c47d 100644
+--- a/indev/AD_touch.h
++++ b/indev/AD_touch.h
+@@ -17,7 +17,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 
+diff --git a/indev/FT5406EE8.h b/indev/FT5406EE8.h
+index 2d1eda7..ccb679e 100644
+--- a/indev/FT5406EE8.h
++++ b/indev/FT5406EE8.h
+@@ -17,7 +17,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 
 diff --git a/indev/XPT2046.h b/indev/XPT2046.h
 index 7eee8c0..39be147 100644
 --- a/indev/XPT2046.h
 +++ b/indev/XPT2046.h
 @@ -17,7 +17,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 
+diff --git a/indev/evdev.h b/indev/evdev.h
+index b9af7ed..6747c74 100644
+--- a/indev/evdev.h
++++ b/indev/evdev.h
+@@ -17,7 +17,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 
+diff --git a/indev/keyboard.h b/indev/keyboard.h
+index 50afd1d..e3387c2 100644
+--- a/indev/keyboard.h
++++ b/indev/keyboard.h
+@@ -17,7 +17,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 
+diff --git a/indev/libinput_drv.h b/indev/libinput_drv.h
+index ae1ee42..3f9568d 100644
+--- a/indev/libinput_drv.h
++++ b/indev/libinput_drv.h
+@@ -17,7 +17,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 
+diff --git a/indev/mouse.h b/indev/mouse.h
+index 5e56f49..35f8f94 100644
+--- a/indev/mouse.h
++++ b/indev/mouse.h
+@@ -17,7 +17,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 
+diff --git a/indev/mousewheel.h b/indev/mousewheel.h
+index 3103c36..768041b 100644
+--- a/indev/mousewheel.h
++++ b/indev/mousewheel.h
+@@ -17,7 +17,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 
+diff --git a/wayland/wayland.h b/wayland/wayland.h
+index 93ac8ac..498b65f 100644
+--- a/wayland/wayland.h
++++ b/wayland/wayland.h
+@@ -17,7 +17,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 
+diff --git a/win32drv/win32drv.h b/win32drv/win32drv.h
+index 5bbb694..0a33c00 100644
+--- a/win32drv/win32drv.h
++++ b/win32drv/win32drv.h
+@@ -14,7 +14,7 @@
  #ifdef LV_CONF_INCLUDE_SIMPLE
  #include "lv_drv_conf.h"
  #else
