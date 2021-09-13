@@ -1,0 +1,13 @@
+diff --git a/indev/XPT2046.h b/indev/XPT2046.h
+index 7eee8c0..39be147 100644
+--- a/indev/XPT2046.h
++++ b/indev/XPT2046.h
+@@ -17,7 +17,7 @@ extern "C" {
+ #ifdef LV_CONF_INCLUDE_SIMPLE
+ #include "lv_drv_conf.h"
+ #else
+-#include "../../lv_drv_conf.h"
++#include "../lv_drv_conf.h"
+ #endif
+ #endif
+ 

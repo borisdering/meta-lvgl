@@ -4,7 +4,8 @@ LICENSE = "MIT"
 
 SRCREV = "${AUTOREV}"
 
-SRC_URI = "git://github.com/lvgl/lv_drivers.git;protocol=http;branch=release/v8.0"
+SRC_URI = "git://github.com/lvgl/lv_drivers.git;protocol=http;branch=release/v8.0 \
+            file://conf.patch"
 
 LIC_FILES_CHKSUM = "file://${WORKDIR}/git/LICENSE;md5=d6fc0df890c5270ef045981b516bb8f2"
 SRC_URI[sha256sum] = "035b06fb384763ae7102b231e77f389a4836b270e0f9ceb2bcfd36bb5454cbef"
